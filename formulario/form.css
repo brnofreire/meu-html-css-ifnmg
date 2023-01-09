@@ -1,0 +1,219 @@
+body {
+    font-size: 100%;
+    /*deixa a fonte em tamanho 100%*/
+    font-family: Arial, sans-serif;
+    /*fonte usada*/
+}
+
+#container {
+    width: 600px;
+    /*define o container em 600px*/
+}
+
+h2 {
+    background-color: #dedede;
+    /*cor de fundo do titulo h2*/
+    border-bottom: 1px solid #d4d4d4;
+    /*deixa a borda de baixo em 1px e troca sua cor*/
+    border-top: 1px solid #d4d4d4;
+    /*deixa a borda superior em 1px e troca a sua cor*/
+    border-radius: 5px;
+    /*arredonda a borda da caixa em 5px*/
+    box-shadow: 3px 3px 3px #ccc;
+    /*Acrescenta uma sombra a caixa do h2*/
+    color: #fff;
+    /*muda a cor da fonte do h2*/
+    font-size: 1.1em;
+    /*altera o tamanho da fonte do h2*/
+    margin: 12px;
+    /*adiciona uma margem de 12 pixels ao redor do h2*/
+    padding: 0.3em 1em;
+    /*adiciona um preechimento proporcional à caixa*/
+    text-shadow: #9FBEB9 1px 1px 1px;
+    /*proporção das sombras no texto*/
+    text-transform: uppercase;
+    /*deixa o texto em maiúsculo*/
+}
+
+h2.conta {
+    background-color: #0b5586;
+    /* muda a cor do titulo conta*/
+}
+
+h2.endereco {
+    background-color: #4494c9;
+    /*muda a cor do titulo endereço*/
+}
+
+h2.perfil-publico {
+    background-color: #377d87;
+    /*muda a cor do titulo perfil publico*/
+}
+
+h2.emails {
+    background-color: #717f88;
+    /*muda a cor do titulo dos emails quando existir*/
+}
+
+legend {
+    background-color: #dedede;
+    /*cor do fundo do legend*/
+    border-top: 1px solid #d4d4d4;
+    /*bordas superiores em um pixel e cor esbranquiçada*/
+    border-bottom: 1px solid #d4d4d4;
+    /*bordas inferiores em um pixel e cor esbranquiçada*/
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    /*sombra das caixas para navegadores antigos*/
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    /*sombra nas caixas para navegadores antigos*/
+    box-shadow: 3px 3px 3px #ccc;
+    /*Acrescenta sombra nas caixas*/
+    font-size: 1.1em;
+    /*muda o tamanho das fontes*/
+    text-transform: uppercase;
+    /*Deixa os textos em maiúsculo*/
+    padding: 0.3em 1em;
+    /*Altera o preenchimento/padding proprocionalmente com o pai*/
+}
+
+fieldset {
+    background-color: #f1f1f1;
+    /*altera o fundo do fieldset para cinza claro*/
+    border: none;
+    /*retira as linhas bordas*/
+    border-radius: 2px;
+    /*arredonda as bordas*/
+    margin-bottom: 12px;
+    overflow: hidden;
+    /*esconde as barras de rolagem*/
+    padding: 0 10px;
+}
+
+ul {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    list-style: none;
+    /*retira as decorações de bolinha na lista*/
+    margin: 12px;
+    padding: 12px;
+}
+
+li {
+
+    margin: 0.5em 0;
+}
+
+label {
+    display: inline-block;
+    /*alinha os label em blocos*/
+    padding: 3px 6px;
+    text-align: right;
+    /*alinha os textos a direita*/
+    width: 150px;
+    /*define a largura em 150px*/
+    vertical-align: top;
+    /*alinha os blocos na vertical*/
+}
+
+input,
+select,
+button {
+    font: inherit;
+    /*herda a fonte do pai*/
+}
+
+.small {
+    width: 75px;
+    /*define a largura*/
+}
+
+.medium {
+    width: 150px;
+    /*define a largura*/
+}
+
+.large {
+    width: 250px;
+    /*define a largura*/
+}
+
+textarea {
+    font: inherit;
+
+    width: 250px;
+    /*define a largura*/
+}
+
+.instrucoes {
+    font-size: 75%;
+    padding-left: 167px;
+    font-style: italic;
+}
+
+.criar_perfil {
+    background-color: #DA820A;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #333;
+    cursor: pointer;
+    /*define o cursor modo de pointer*/
+    color: #fff;
+    margin: 12px;
+    padding: 8px;
+    text-shadow: 1px 1px 0px #CCC;
+}
+
+.radios {
+    background: none;
+    display: inline;
+    /*coloca os item em linha*/
+    margin: 0;
+    padding: 0;
+}
+
+.radios ul {
+    border: none;
+    display: inline-block;
+    list-style: none;
+    /*retira a aparencia e posições da lista*/
+    margin: 0;
+    padding: 0;
+}
+
+.radios li {
+    margin: 0;
+    display: inline-block;
+}
+
+.radios label {
+    margin-right: 25px;
+    width: auto;
+}
+
+.radios input {
+    margin-top: 3px;
+}
+
+.checkboxes label {
+    text-align: left;
+    /*alinha a esqeurda o texto*/
+    width: 475px;
+}
+
+button * {
+
+    vertical-align: middle;
+    /*alinha o botao no meio*/
+}
+
+table {
+    border-collapse: collapse;
+    /*evita as bordas de se tocarem*/
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
